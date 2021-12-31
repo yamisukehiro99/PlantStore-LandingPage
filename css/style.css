@@ -231,9 +231,9 @@ header nav ul .active, header nav ul a:hover {
   -o-transform: translateX(-50%);
 }
 .landing .bullets li{
-  width: 20px;
-  height: 20px;
-  border: 2px solid white;
+  width: 15px;
+  height: 15px;
+  border: 1.8px solid white;
   background-color: transparent;
   border-radius: 50%;
   -webkit-border-radius: 50%;
