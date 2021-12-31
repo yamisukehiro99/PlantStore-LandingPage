@@ -155,12 +155,15 @@ nav ul {
 }
 
 @media (max-width: 768px) {
+
   nav ul {
     display: none;
   }
+
   header .form {
     padding-left: 20px;
   }
+  
   header nav .toggle-menu:hover + ul {
     display: flex;
     flex-direction: column;
@@ -171,10 +174,12 @@ nav ul {
     text-align: center;
     padding: 0;
   }
+  
   header nav .toggle-menu:hover + ul li a {
     padding: 15px;
   }
 }
+
 nav ul a {
   position: relative;
   display: block;
