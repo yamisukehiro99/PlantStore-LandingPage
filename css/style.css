@@ -358,3 +358,47 @@ header nav ul .active, header nav ul a:hover {
   }
 }
 /* /Services */
+
+.design {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
+  background-image: url("../images/best-online-plant-delivery-1638314748.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 600px;
+}
+
+.design .text {
+  padding: 50px;
+  background-color: var(--transparent-color);
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .design .text {
+    width: 100%;
+  }
+}
+
+.design .content {
+  color: white;
+}
+
+.design .content ul li::before {
+  font-family: 'Font Awesome 5 Free';
+  content: '\f5bb';
+  color: white;
+  font-weight: 900;
+  margin-right: 5px;
+  font-size: larger;
+}
+
+.design .content h3 {
+  padding: 20px;
+}
+
+.design .content li {
+  padding: 20px;
+}
