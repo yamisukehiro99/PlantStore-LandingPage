@@ -1,2 +1,2 @@
 # plantsstore
-Store Plants
+Plant Store
