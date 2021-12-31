@@ -163,7 +163,7 @@ nav ul {
   header .form {
     padding-left: 20px;
   }
-  
+
   header nav .toggle-menu:hover + ul {
     display: flex;
     flex-direction: column;
@@ -353,9 +353,8 @@ header nav ul .active, header nav ul a:hover {
     grid-row-gap: 30px;
 
   }
-
   .services .serv {
-    margin-bottom: 0;
+    margin-bottom: 1px;
   }
 }
 /* /Services */
